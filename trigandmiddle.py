@@ -12,7 +12,8 @@ a= map(trig, range(1,person))
 #middle numbers
 def mid(z): return ((math.factorial(z))/(math.factorial(z/2)**2))
 b = map(mid, range (0,person,2))
-
+#IF YOU WANT YOU CAN UNCOMMENT TETRAHEDRAL NUMBER AND COMMENT TRIANGULAR NUMEBERS AND COMPARE THE INTED
+# SAME FOR PENTATOPE? 5th diagonal
 #tetrahedral numbers
 #def tetra(c): return (((c**3) + 3*(c**2) + (2*c))/ 6)
 #c = map(tetra, range (1,person))
